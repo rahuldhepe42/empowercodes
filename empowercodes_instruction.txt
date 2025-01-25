@@ -1,0 +1,23 @@
+  Process
+
+
+1) Start the Apache and MySQL services in the control panel.
+2)Locate the htdocs Folder
+3)the htdocs folder is located in the installation directory, typically
+4) create folder in htdocs and add all file(index.html, process.php, productList.php) in that folder 
+
+
+Set Up the Database  
+
+1)Open phpMyAdmin
+2)Create the Database
+3)Create the Table
+4)Go to the SQL tab and run the sql file queries
+5)Run the Project
+
+folde and file structer
+
+C:/xampp/htdocs/ProductEntry/
+    ├── index.html          // Product entry form
+    ├── process.php         // Handles form submission
+    ├── productList.php     // Displays product list
